@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Tilt+Prism&display=swap');
+
+body
+{
+  background-color: rgb(2, 2, 54);
+  background-size: fixed;
+  font-family: 'Alata', sans-serif;
+}
+nav {
+  background-color: rgb(12, 11, 11);
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Signika', sans-serif;
+
+}
+nav h1
+{
+  position: absolute; 
+  top: 0%; 
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aqua;
+}
+nav h1 a
+{
+
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aqua;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+nav ul li:hover a {
+  color: #0085a1;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+nav ul li ul li a {
+  padding: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+nav ul li ul li a:hover {
+  color: #0085a1;
+}
+.detel{
+    margin-left: 12%;
+    margin-top: 12%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #fffbfb;
+    margin-bottom: 20px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.detel h2
+{
+    color: #8b8585;
+}
+
+.detel h2:hover
+{
+    color: rgb(10, 238, 227);
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel p{
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.detel a{
+    background: #170675;
+    padding: 0px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 12%;
+    margin-top: 30px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
