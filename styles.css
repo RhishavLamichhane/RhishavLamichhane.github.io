@@ -108,8 +108,12 @@ nav ul li ul li a:hover {
   text-align: justify;
   line-height: 43px;
   position: fixed;
-  top: 27%;
+  top: 20%;
   left: 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
 .ai h1
 {
@@ -120,4 +124,11 @@ nav ul li ul li a:hover {
 {
   font-size: 28px;
   color: #07f007;
+}
+
+@media screen and (max-width:1200px){
+  .ai{
+    width: 5050px;
+
+  }
 }
