@@ -10,29 +10,43 @@ body
 }
 nav {
   background-color: rgb(12, 11, 11);
-  padding: 10px;
+  padding: 0px;
   border-radius: 5px;
   font-family: 'Signika', sans-serif;
-  overflow: auto;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content:space-between;
+  margin: 0 auto;
 
 }
-nav h1
+nav .logo
 {
-  position: absolute; 
-  top: 0%; 
-  display: block;
-  padding: 10px;
-  text-decoration: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 10px;
+}
+nav .logo h1
+{
+  display: flex;
+  padding: 0px;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
   color: aqua;
 }
-nav h1 a
+nav .logo i
 {
-
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+nav .logo h1 a
+{
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 1px;
